@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aura Beauty Studio — Salon &amp; Bridal Care</title>
+<meta name="description" content="Aura Beauty Studio — hair, skin, makeup, bridal and spa care. Book online, pay securely, follow us on Instagram, WhatsApp &amp; YouTube.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<header class="site-header" id="siteHeader">
+  <div class="nav-wrap">
+    <a href="#top" class="brand">
+      <span class="brand-mark">A</span>
+      <span class="brand-name">Aura <em>Beauty Studio</em></span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#about">About</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#connect">Follow</a>
+      <a href="#book" class="nav-cta">Book &amp; Pay</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top">
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow">Hair &middot; Skin &middot; Bridal &middot; Spa</p>
+      <h1>Radiance,<br><em>ritualised.</em></h1>
+      <p class="hero-lede">A quiet, considered space for women who want to look after themselves properly — not rushed, not generic. Every service is booked as a ritual, not a slot.</p>
+      <div class="hero-actions">
+        <a href="#book" class="btn btn-primary">Book an appointment</a>
+        <a href="https://wa.me/910000000000" target="_blank" rel="noopener" class="btn btn-ghost">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.5 0-9.96 4.46-9.96 9.96 0 1.76.46 3.44 1.32 4.94L2 22l5.24-1.37a9.9 9.9 0 0 0 4.8 1.22h.01c5.5 0 9.96-4.46 9.96-9.96S17.54 2 12.04 2zm5.86 14.1c-.24.68-1.4 1.3-1.93 1.37-.5.08-1.1.11-1.77-.11-.41-.13-.94-.3-1.62-.6-2.86-1.24-4.72-4.13-4.86-4.32-.14-.19-1.16-1.54-1.16-2.94 0-1.4.73-2.09.99-2.37.26-.28.57-.35.76-.35h.55c.18 0 .42-.02.65.5.24.55.8 1.9.87 2.04.07.14.12.3.02.49-.09.19-.14.3-.28.46-.14.16-.29.36-.42.48-.14.14-.28.28-.12.55.16.28.71 1.18 1.53 1.92 1.06.95 1.95 1.24 2.23 1.38.28.14.44.12.6-.07.16-.19.68-.8.87-1.07.18-.28.36-.23.6-.14.24.09 1.55.74 1.82.87.27.14.44.2.5.32.07.12.07.65-.17 1.32z"/></svg>
+          WhatsApp us
+        </a>
+      </div>
+      <ul class="hero-stats">
+        <li><strong>4.9★</strong><span>1,200+ Google reviews</span></li>
+        <li><strong>11</strong><span>years, one address</span></li>
+        <li><strong>Only</strong><span>certified estheticians</span></li>
+      </ul>
+    </div>
+
+   <div class="hero-frame">
+  <div class="frame-ring"></div>
+  <img src="images/Toyota-Innova-Crysta.jpg" alt="Toyota Innova Crysta">
+  <div class="frame-badge">
+    <span>Est.</span>
+    <strong>2014</strong>
+  </div>
+</div>
+  <div class="hero-divider" aria-hidden="true"></div>
+</section>
+
+<!-- ================= SERVICES (spa menu style) ================= -->
+<section class="services" id="services">
+  <div class="section-head">
+    <p class="eyebrow">The menu</p>
+    <h2>Services &amp; pricing</h2>
+    <p class="section-lede">Select anything below directly into your booking — prices are per session, all products included.</p>
+  </div>
+
+  <div class="menu-grid" id="menuGrid">
+
+    <div class="menu-card">
+      <h3>Hair</h3>
+      <ul class="menu-list">
+        <li data-service="Haircut &amp; Styling" data-price="600"><span class="mi-name">Haircut &amp; styling</span><span class="mi-dots"></span><span class="mi-price">₹600</span></li>
+        <li data-service="Global Hair Colour" data-price="2800"><span class="mi-name">Global colour</span><span class="mi-dots"></span><span class="mi-price">₹2,800</span></li>
+        <li data-service="Keratin Smoothening" data-price="4500"><span class="mi-name">Keratin smoothening</span><span class="mi-dots"></span><span class="mi-price">₹4,500</span></li>
+        <li data-service="Deep Hair Spa" data-price="1200"><span class="mi-name">Deep hair spa</span><span class="mi-dots"></span><span class="mi-price">₹1,200</span></li>
+      </ul>
+    </div>
+
+    <div class="menu-card">
+      <h3>Skin &amp; Facial</h3>
+      <ul class="menu-list">
+        <li data-service="Signature Facial" data-price="1500"><span class="mi-name">Signature facial</span><span class="mi-dots"></span><span class="mi-price">₹1,500</span></li>
+        <li data-service="Gold Radiance Facial" data-price="2200"><span class="mi-name">Gold radiance facial</span><span class="mi-dots"></span><span class="mi-price">₹2,200</span></li>
+        <li data-service="De-Tan &amp; Clean-up" data-price="800"><span class="mi-name">De-tan &amp; clean-up</span><span class="mi-dots"></span><span class="mi-price">₹800</span></li>
+        <li data-service="Threading (Full Face)" data-price="250"><span class="mi-name">Threading (full face)</span><span class="mi-dots"></span><span class="mi-price">₹250</span></li>
+      </ul>
+    </div>
+
+    <div class="menu-card">
+      <h3>Makeup &amp; Bridal</h3>
+      <ul class="menu-list">
+        <li data-service="Party Makeup" data-price="1800"><span class="mi-name">Party makeup</span><span class="mi-dots"></span><span class="mi-price">₹1,800</span></li>
+        <li data-service="HD Bridal Makeup" data-price="9000"><span class="mi-name">HD bridal makeup</span><span class="mi-dots"></span><span class="mi-price">₹9,000</span></li>
+        <li data-service="Draping &amp; Hairdo" data-price="1200"><span class="mi-name">Draping &amp; hairdo</span><span class="mi-dots"></span><span class="mi-price">₹1,200</span></li>
+        <li data-service="Trial Session" data-price="1000"><span class="mi-name">Trial session</span><span class="mi-dots"></span><span class="mi-price">₹1,000</span></li>
+      </ul>
+    </div>
+
+    <div class="menu-card">
+      <h3>Nails &amp; Spa</h3>
+      <ul class="menu-list">
+        <li data-service="Manicure &amp; Pedicure" data-price="900"><span class="mi-name">Manicure &amp; pedicure</span><span class="mi-dots"></span><span class="mi-price">₹900</span></li>
+        <li data-service="Gel Nail Extension" data-price="1600"><span class="mi-name">Gel nail extension</span><span class="mi-dots"></span><span class="mi-price">₹1,600</span></li>
+        <li data-service="Full Body Massage" data-price="2000"><span class="mi-name">Full body massage</span><span class="mi-dots"></span><span class="mi-price">₹2,000</span></li>
+        <li data-service="Waxing (Full Arms &amp; Legs)" data-price="1100"><span class="mi-name">Waxing (arms &amp; legs)</span><span class="mi-dots"></span><span class="mi-price">₹1,100</span></li>
+      </ul>
+    </div>
+
+  </div>
+  <p class="menu-hint">Tap any service to add it to your booking below.</p>
+</section>
+
+<!-- ================= GALLERY ================= -->
+<section class="gallery" id="gallery">
+  <div class="section-head light">
+    <p class="eyebrow">Inside the studio</p>
+    <h2>A look around</h2>
+  </div>
+  <div class="gallery-grid">
+    <div class="g-item g-tall">Studio interior</div>
+    <div class="g-item">Bridal look</div>
+    <div class="g-item">Facial suite</div>
+    <div class="g-item">Nail bar</div>
+    <div class="g-item g-tall">Colour bar</div>
+    <div class="g-item">Client result</div>
+  </div>
+  <p class="gallery-note">Replace the placeholder tiles in <code>style.css</code> / <code>index.html</code> with your own photos — see the README.</p>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="about" id="about">
+  <div class="about-grid">
+    <div class="about-copy">
+      <p class="eyebrow">Why Sidhu</p>
+      <h2>We treat one client at a time — never a queue.</h2>
+      <p>Every chair is booked in single slots so your stylist is never split between three heads of hair at once. Products are dermat-approved, tools are sterilised between every single client, and every artist is certified before they touch a booking.</p>
+      <ul class="about-points">
+        <li>Certified estheticians &amp; colourists only</li>
+        <li>Hygiene-first: sterilised tools, single-use essentials</li>
+        <li>Private rooms available for bridal parties</li>
+      </ul>
+    </div>
+    <div class="about-seal">
+      <div class="seal-ring">
+        <span>SINCE 2014 · CERTIFIED ARTISTS · PRIVATE ROOMS</span>
+      </div>
+      <div class="seal-core">S</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= REVIEWS ================= -->
+<section class="reviews" id="reviews">
+  <div class="section-head">
+    <p class="eyebrow">Kind words</p>
+    <h2>From our clients</h2>
+  </div>
+  <div class="review-track" id="reviewTrack">
+    <blockquote class="review-card">
+      <p>“The bridal trial was exactly what I asked for on the first try. No redoing, no rush.”</p>
+      <cite>— Priya S.</cite>
+    </blockquote>
+    <blockquote class="review-card">
+      <p>“Booked and paid online in two minutes flat. The keratin treatment held for four months.”</p>
+      <cite>— Meera R.</cite>
+    </blockquote>
+    <blockquote class="review-card">
+      <p>“Private room for my bridesmaids was worth every rupee. Calm, unhurried, beautifully done.”</p>
+      <cite>— Ananya K.</cite>
+    </blockquote>
+  </div>
+  <div class="review-dots" id="reviewDots"></div>
+</section>
+
+<!-- ================= SOCIAL / CONNECT ================= -->
+<section class="connect" id="connect">
+  <div class="section-head light">
+    <p class="eyebrow">Stay close</p>
+    <h2>Follow the studio</h2>
+    <p class="section-lede">Daily transformations, tutorials and behind-the-scenes — and the fastest way to reach us directly.</p>
+  </div>
+
+  <div class="connect-grid">
+    <a class="connect-card ig" href="https://instagram.com/yourhandle" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path fill="currentColor" d="M12 2.2c3.2 0 3.58.01 4.85.07 1.17.05 1.97.24 2.43.4a4.9 4.9 0 0 1 1.77 1.15 4.9 4.9 0 0 1 1.15 1.77c.16.46.35 1.26.4 2.43.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.24 1.97-.4 2.43a4.9 4.9 0 0 1-1.15 1.77 4.9 4.9 0 0 1-1.77 1.15c-.46.16-1.26.35-2.43.4-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.97-.24-2.43-.4a4.9 4.9 0 0 1-1.77-1.15 4.9 4.9 0 0 1-1.15-1.77c-.16-.46-.35-1.26-.4-2.43C2.21 15.58 2.2 15.2 2.2 12s.01-3.58.07-4.85c.05-1.17.24-1.97.4-2.43a4.9 4.9 0 0 1 1.15-1.77A4.9 4.9 0 0 1 5.59 1.8c.46-.16 1.26-.35 2.43-.4C9.29 1.34 9.67 1.33 12 1.33m0 1.8c-3.15 0-3.5.01-4.73.07-.96.04-1.48.2-1.83.34-.46.18-.79.39-1.13.73-.34.34-.55.67-.73 1.13-.14.35-.3.87-.34 1.83C3.18 8.13 3.17 8.48 3.17 12s.01 3.87.07 5.1c.04.96.2 1.48.34 1.83.18.46.39.79.73 1.13.34.34.67.55 1.13.73.35.14.87.3 1.83.34 1.23.06 1.58.07 4.73.07s3.5-.01 4.73-.07c.96-.04 1.48-.2 1.83-.34.46-.18.79-.39 1.13-.73.34-.34.55-.67.73-1.13.14-.35.3-.87.34-1.83.06-1.23.07-1.58.07-5.1s-.01-3.87-.07-5.1c-.04-.96-.2-1.48-.34-1.83a3.05 3.05 0 0 0-.73-1.13 3.05 3.05 0 0 0-1.13-.73c-.35-.14-.87-.3-1.83-.34C15.5 3.61 15.15 3.6 12 3.6Zm0 3.06a5.34 5.34 0 1 1 0 10.68 5.34 5.34 0 0 1 0-10.68Zm0 1.8a3.54 3.54 0 1 0 0 7.08 3.54 3.54 0 0 0 0-7.08Zm5.55-1.98a1.25 1.25 0 1 1-2.5 0 1.25 1.25 0 0 1 2.5 0Z"/></svg>
+      <span class="cc-label">Instagram</span>
+      <span class="cc-sub">@yourhandle</span>
+    </a>
+
+    <a class="connect-card wa" href="https://wa.me/910000000000" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.5 0-9.96 4.46-9.96 9.96 0 1.76.46 3.44 1.32 4.94L2 22l5.24-1.37a9.9 9.9 0 0 0 4.8 1.22h.01c5.5 0 9.96-4.46 9.96-9.96S17.54 2 12.04 2zm5.86 14.1c-.24.68-1.4 1.3-1.93 1.37-.5.08-1.1.11-1.77-.11-.41-.13-.94-.3-1.62-.6-2.86-1.24-4.72-4.13-4.86-4.32-.14-.19-1.16-1.54-1.16-2.94 0-1.4.73-2.09.99-2.37.26-.28.57-.35.76-.35h.55c.18 0 .42-.02.65.5.24.55.8 1.9.87 2.04.07.14.12.3.02.49-.09.19-.14.3-.28.46-.14.16-.29.36-.42.48-.14.14-.28.28-.12.55.16.28.71 1.18 1.53 1.92 1.06.95 1.95 1.24 2.23 1.38.28.14.44.12.6-.07.16-.19.68-.8.87-1.07.18-.28.36-.23.6-.14.24.09 1.55.74 1.82.87.27.14.44.2.5.32.07.12.07.65-.17 1.32z"/></svg>
+      <span class="cc-label">WhatsApp</span>
+      <span class="cc-sub">Chat &amp; book instantly</span>
+    </a>
+
+    <a class="connect-card yt" href="https://youtube.com/@yourhandle" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path fill="currentColor" d="M23.5 6.2a3.02 3.02 0 0 0-2.12-2.14C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.38.56A3.02 3.02 0 0 0 .5 6.2 31.6 31.6 0 0 0 0 12a31.6 31.6 0 0 0 .5 5.8 3.02 3.02 0 0 0 2.12 2.14C4.5 20.5 12 20.5 12 20.5s7.5 0 9.38-.56a3.02 3.02 0 0 0 2.12-2.14A31.6 31.6 0 0 0 24 12a31.6 31.6 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.3 3.6-6.3 3.6Z"/></svg>
+      <span class="cc-label">YouTube</span>
+      <span class="cc-sub">Tutorials &amp; transformations</span>
+    </a>
+  </div>
+
+  <a href="https://wa.me/910000000000?text=Hi!%20I%27d%20like%20to%20book%20an%20appointment" target="_blank" rel="noopener" class="wa-float" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.5 0-9.96 4.46-9.96 9.96 0 1.76.46 3.44 1.32 4.94L2 22l5.24-1.37a9.9 9.9 0 0 0 4.8 1.22h.01c5.5 0 9.96-4.46 9.96-9.96S17.54 2 12.04 2zm5.86 14.1c-.24.68-1.4 1.3-1.93 1.37-.5.08-1.1.11-1.77-.11-.41-.13-.94-.3-1.62-.6-2.86-1.24-4.72-4.13-4.86-4.32-.14-.19-1.16-1.54-1.16-2.94 0-1.4.73-2.09.99-2.37.26-.28.57-.35.76-.35h.55c.18 0 .42-.02.65.5.24.55.8 1.9.87 2.04.07.14.12.3.02.49-.09.19-.14.3-.28.46-.14.16-.29.36-.42.48-.14.14-.28.28-.12.55.16.28.71 1.18 1.53 1.92 1.06.95 1.95 1.24 2.23 1.38.28.14.44.12.6-.07.16-.19.68-.8.87-1.07.18-.28.36-.23.6-.14.24.09 1.55.74 1.82.87.27.14.44.2.5.32.07.12.07.65-.17 1.32z"/></svg>
+  </a>
+</section>
+
+<!-- ================= BOOK & PAY ================= -->
+<section class="book" id="book">
+  <div class="section-head">
+    <p class="eyebrow">Reserve your slot</p>
+    <h2>Book &amp; pay</h2>
+    <p class="section-lede">Pick your services, choose a date, then pay a booking deposit to confirm — the balance is settled at the studio.</p>
+  </div>
+
+  <div class="book-grid">
+    <form class="book-form" id="bookForm">
+      <div class="field-row">
+        <label>
+          Full name
+          <input type="text" name="name" id="custName" required placeholder="Your name">
+        </label>
+        <label>
+          Phone number
+          <input type="tel" name="phone" id="custPhone" required placeholder="10-digit mobile number" pattern="[0-9+ ]{7,15}">
+        </label>
+      </div>
+
+      <div class="field-row">
+        <label>
+          Preferred date
+          <input type="date" name="date" id="custDate" required>
+        </label>
+        <label>
+          Preferred time
+          <input type="time" name="time" id="custTime" required>
+        </label>
+      </div>
+
+      <div class="selected-services">
+        <p class="ss-label">Selected services</p>
+        <ul id="selectedList" class="selected-list">
+          <li class="ss-empty" id="ssEmpty">None yet — tap items in the menu above.</li>
+        </ul>
+        <div class="ss-total">
+          <span>Estimated total</span>
+          <strong id="ssTotal">₹0</strong>
+        </div>
+      </div>
+
+      <div class="pay-methods">
+        <p class="ss-label">Confirm with a deposit (20%)</p>
+        <div class="pay-options" id="payOptions">
+          <label class="pay-opt">
+            <input type="radio" name="paymethod" value="online" checked>
+            <span>UPI / Card / Netbanking (Razorpay)</span>
+          </label>
+          <label class="pay-opt">
+            <input type="radio" name="paymethod" value="cash">
+            <span>Pay in full at the studio</span>
+          </label>
+        </div>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-block" id="payBtn">
+        Pay deposit &amp; confirm booking
+      </button>
+      <p class="pay-note">Payments are processed securely by Razorpay. This demo runs in test mode — see the README to switch to your live merchant key.</p>
+    </form>
+
+    <aside class="book-side">
+      <div class="side-card">
+        <h3>Studio hours</h3>
+        <ul class="hours-list">
+          <li><span>Mon – Sat</span><span>10:00 am – 8:00 pm</span></li>
+          <li><span>Sunday</span><span>11:00 am – 6:00 pm</span></li>
+        </ul>
+      </div>
+      <div class="side-card">
+        <h3>Visit us</h3>
+        <p>SBI Branch Opposite Sidhu Beaut Parlor Paparapatti,<br>Dharmapuri, Tamil Nadu 636813</p>
+        <a href="https://wa.me/910000000000" target="_blank" rel="noopener">+91 9677863543</a>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <a href="#top" class="brand brand-footer">
+        <span class="brand-mark">S</span>
+        <span class="brand-name">Sidhu <em>Beauty Parlor</em></span>
+      </a>
+      <p>A quiet space for hair, skin, bridal and spa care in Chennai.</p>
+    </div>
+    <div>
+      <p class="footer-head">Explore</p>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#book">Book &amp; pay</a>
+    </div>
+    <div>
+      <p class="footer-head">Follow</p>
+      <a href="https://instagram.com/yourhandle" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://wa.me/910000000000" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="https://youtube.com/@yourhandle" target="_blank" rel="noopener">YouTube</a>
+    </div>
+  </div>
+  <p class="footer-bottom">© <span id="year"></span> Sidhu Beauty Parlor. All rights reserved.</p>
+</footer>
+
+<!-- Razorpay checkout script — used by the Book & Pay form -->
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
